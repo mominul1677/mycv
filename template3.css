@@ -1,0 +1,124 @@
+{
+    margin: 0;
+    padding: 0 ;
+}
+body{
+    background-image: url(17.jpg);
+        background-repeat: repeat;
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+.Container{
+max-width: 1000px ;
+height: 250px;
+background-image: url(13.jpg);
+background-attachment: fixed;
+margin: 0 auto;
+padding: 10px;
+
+}
+header{
+
+
+}
+.profile-photo{
+    width: 200px;
+    height: 220px;
+    border: 3px solid wheat ;
+    border-radius: 50%;
+    float: left;
+
+}
+.header-bio{
+    float: left;
+    padding: 50px;
+
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+
+    
+
+
+
+}
+.header-contact a {
+    text-decoration: none;
+    color: #22dec4f2;
+    font-weight: bold;
+    
+
+    }
+.header-contact a:hover {
+    text-decoration: underline;
+    color: tomato;
+    
+
+    
+}
+h1,h2,h3,h4,h5,h6{
+        color: #3cbd40;
+        font-size: 24px;
+
+
+}
+h2 {
+    font-size: 32px;
+}
+p{
+    
+    color: #d8d0d3e0;
+    font-size: 24px;
+}
+h4 {
+    color:#3cbd40 ;
+    font-size: 20px;
+}
+.dip-clear{
+    clear: both;
+}
+.hr1{
+    border: solid black 8px;
+    width: 100%;
+    margin: 30px auto;
+    border-bottom: none;
+
+}
+.personal-section{
+
+}
+.content1{
+   
+}
+
+.common-hr{
+    border: solid black 2px ;
+    border-bottom: none;
+    width: 100%;
+    margin: 10px auto ;
+}
+
+.btn-group .button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+
