@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+li , a , h2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #DDE5E5;
+    
+    text-decoration: none;
+}
+body{
+    background-image: url(image/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10% ;
+    height: 100px;
+    width: 100%;
+    background-color: #6B6F6F ;
+
+}
+.nav_Link{
+    list-style-type: none;
+}
+.nav_Link li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.nav_link li , a:hover{
+    color: #1AD0CA ;
+}
+h2:hover{
+    color: #1AD0CA ;
+}
+/*body*/
+.group_name{
+    padding-top: 20px
+}
+.tItle {
+    height: 200px;
+    width: 50%;
+    padding-top: 40px;
+    float: right;
+    margin: 30px;
+    color: darkblue;
+}
+.tItle_img {
+    height: 300px;
+    width: 31%;
+    float: left;
+    padding: 7px 24px;
+}
+.login_from {
+    background-image: url(image/1111.jpg);
+    display: table-caption;
+   
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin: 200px;
+    color: #f3f0ec;
+    padding: 20px;
+}
+input.login_inputBox_un {
+    height: 30px;
+    width: 253px;
+     margin-top: 35px;
+}
+input.login_inputBox_p {
+    height: 30px;
+    width: 253px;
+    margin-top: 20px;
+}
+.login_button{
+ height: 30px;
+    width: 253px;
+    margin-top: 20px;
+}
+.signUpBox{
+   display: table-caption;
+    background-image: url(image/1111.jpg);
+    height: 470px;
+    width: 338px;
+    margin: 200px;
+    color: #f3f0ec;
+    padding: 20px;
+    margin-left: 451px;
+    margin-top: 150px;
+
+}
+.signUpInputBoxLname{
+     height: 30px;
+    width: 253px;
+     margin-top: 35px;
+}
+img.logo {
+    height: 90px;
+    
+}
+.tm2From{
+        display: table-caption;
+        background-color: #0a2c56;
+        height: 1500px;
+        width: 70%;
+        float: right;
+        margin: 200px;
+        color: #1fa706;
+        padding: 20px;
+}
+input[type="text"] {
+    margin: 5px;
+    padding: 2px;
+    height: 40px;
+    width: 100%;
+}
+
+input[type="email"] {
+     margin: 5px;
+     padding: 2px;
+     height: 40px;
+     width: 100%;
+}
+input[type="password"] {
+     margin: 5px;
+     padding: 2px;
+     height: 40px;
+     width: 100%;
+}
+h4.wrong_info {
+    color: #e80e0ebf;
+    font-size: 15px;
+    margin: 6px;
+}
+p.success {
+    color: #14b521;
+    font-size: 20px;
+}
+.user_form{
+      height: 52px;
+    width: 336px;
+    margin-top: 35px;
+    margin-left: 35%;
+    background-color: #09e64d;
+    font-size: 30px;
+    color: #0a0a0a;
+
+}
+.curriculum_vitae_div{
+    
+    height: 550px;
+    width: 50%;
+    margin: 5%;
+    margin-top: 10%;
+    float: right;
+    padding:10px
+}
+.curriculum_vitae{
+    font-size: 25px;
+    color: #e7eceb;
+}
+.curriculum_vitae_pic {
+
+
+
+height: 550px;
+
+width: 30%;
+
+margin: 5%;
+
+margin-top: 12%;
+
+float: left;
+
+padding:10px;
+}
+.curriculum_vitae_img {
+    height: 500px;
+    width: 100%;
+}
+
